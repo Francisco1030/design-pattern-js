@@ -1,0 +1,3 @@
+# Abstract Factory
+
+>Estendendo nosso exemplo de porta da Simple Factory. Com base nas suas necessidades, você pode obter uma porta de madeira em uma loja de portas de madeira, uma porta de ferro em uma loja de ferro ou uma porta de PVC em uma loja relevante. Além disso, você pode precisar de um cara com diferentes tipos de especialidades para ajustar a porta, por exemplo, um carpinteiro para porta de madeira, soldador para porta de ferro, etc. Como você pode ver, há uma dependência entre as portas agora, porta de madeira precisa de carpinteiro, porta de ferro precisa de um soldador etc.
