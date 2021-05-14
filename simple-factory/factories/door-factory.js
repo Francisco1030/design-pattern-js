@@ -1,4 +1,4 @@
-const WoodenDoor = require("../interfaces/wooden-door");
+const WoodenDoor = require("../models/wooden-door");
 
 const DoorFactory = {
   makeDoor: (width, height) => new WoodenDoor(width, height)

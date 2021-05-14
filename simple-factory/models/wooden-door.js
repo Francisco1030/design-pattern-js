@@ -1,5 +1,8 @@
-module.exports = class WoodenDoor {
+const Door = require("../interfaces/door");
+
+module.exports = class WoodenDoor extends Door {
  constructor(width, height) {
+  super();
   this.width = width;
   this.height = height;
  }
